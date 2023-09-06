@@ -1,5 +1,5 @@
 /* Reset CSS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -8,4 +8,23 @@
   outline: 0;
   list-style: none;
   font-family: "Rototo", Arial, Helvetica, sans-serif;
+}
+
+:root  {
+  --primary: #1976D2;
+  --body: #FFF;
+  --text-menu: #FFF;
+  --text-body: #4B4B4B;
+}
+
+:root .dark-theme {
+  --primary: #1976D2;
+  --body: #4B4B4B;
+  --text-menu: #FFF;
+  --text-body: #FFF;
+}
+
+body {
+  background-color: var(--body);
+  color: var(--text-body)
 }
