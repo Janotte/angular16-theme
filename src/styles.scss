@@ -8,6 +8,10 @@
   outline: 0;
   list-style: none;
   font-family: "Rototo", Arial, Helvetica, sans-serif;
+  button {
+    background: none;
+    cursor: pointer;
+  }
 }
 
 :root  {
@@ -18,7 +22,7 @@
 }
 
 :root .dark-theme {
-  --primary: #1976D2;
+  --primary: #093f75;
   --body: #4B4B4B;
   --text-menu: #FFF;
   --text-body: #FFF;
